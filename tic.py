@@ -23,11 +23,13 @@ while True:
     prompt1 = input("player 1 turn: ")
 
 
-    if prompt1 == 1:
+    if int(prompt1) == 1:
         a = x
         board()
         print("win")
         prompt2= input("player 2 turn: ")
+        
+   
 
 
 
